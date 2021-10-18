@@ -21,7 +21,7 @@ const lists =  [
 
 app.get('/api/lists', (req, res) => {
   setTimeout(() => {
-    res.status(400).json(lists);
+    res.json(lists);
   }, 3000);
 })
 
